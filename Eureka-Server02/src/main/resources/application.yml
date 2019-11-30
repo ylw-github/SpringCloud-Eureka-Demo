@@ -16,3 +16,4 @@ eureka:
     register-with-eureka: true
 ###因为自己是为注册中心，不需要检索服务
     fetch-registry: true
+

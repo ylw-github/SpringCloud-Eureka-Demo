@@ -1,0 +1,13 @@
+###eureka 服务端口号
+server:
+  port: 8502
+spring:
+  application:
+    name: consul-service-b
+  ####consul注册中心地址
+  cloud:
+    consul:
+      host: 192.168.162.131
+      port: 8500
+      discovery:
+        hostname: 127.0.0.1
